@@ -11,7 +11,7 @@
 
     <div>
         <!-- Task Name  -->
-        <input type="text" id="" placeholder="task name...">
+        <input type="text" id="task" placeholder="task name...">
 
         <!-- Categories  -->
         <select>
@@ -33,13 +33,33 @@
           </select>
 
           <!-- Add Task Button  -->
-          <button>Add Task</button>
+              <button>Add Task</button>
     </div>
-</body>
+
+    <div>
+      <h2>Filter Tasks</h2>
+      <select>
+        <option disabled selected>Filter by Status</option>
+        <option value="pending">Pending</option>
+        <option value="inprogress">In Progress</option>
+        <option value="completed">Completed</option>
+      </select>
+      <select>
+        <option disabled selected>Filter by Categories</option>
+        <option value="school">School</option>
+        <option value="work">Work</option>
+        <option value="personal">Personal</option>
+      </select>
+    </div>
+
+    <ul id="task-list">
+        <li>Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li>
+    </ul>
+    
+  </body>
 </html>
-
-
-
 
 
 
